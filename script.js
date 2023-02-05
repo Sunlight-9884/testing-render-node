@@ -7,7 +7,7 @@ const showOnUI = (name, email) => {
   usersInfoTag.append(userDiv);
 };
 const getUsersFromServer = async () => {
-  const url = "http://localhost:3000/allUsers";
+  const url = "https://testing-render-node.onrender.com";
   const response = await fetch(url);
   const data = await response.json();
 
