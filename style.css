@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(236, 8, 8);
+}
+.container {
+  max-width: 1024px;
+  height: 80vh;
+}
+.registerForm button,
+.registerForm input {
+  margin: 2px auto;
+  font-size: 0.6rem;
+}
+
+.registerForm label {
+  font-size: 0.6rem;
+}
+.user {
+  border: 1px solid rgb(236, 230, 230);
+  width: 70%;
+  margin: 0.3rem auto;
+}
+.user p {
+  color: rgb(19, 4, 32);
+}
