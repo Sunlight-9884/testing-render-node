@@ -40,7 +40,7 @@ const registerNewUser = async () => {
   };
 
   if (newUserName || newUserEmail) {
-    const response = await fetch("http://localhost:3000/allUsers", {
+    const response = await fetch("https://testing-render-node.onrender.com", {
       method: "POST",
       body: JSON.stringify(newUserobject),
     });
